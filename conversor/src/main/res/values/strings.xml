@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ConversorApp</string>
+    <string name="mensaje">Hola mundo</string>
+    <string name="Titulo">Conversor</string>
+    <string name="pesos">COP</string>
+    <string name="dollars">USD</string>
+    <string name="convertir">Convertir</string>
+</resources>

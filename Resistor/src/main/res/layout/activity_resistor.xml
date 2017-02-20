@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_resistor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.resistor.Resistor">
+
+    <LinearLayout style="@style/HLayoutStyle">
+        <Button style="@style/ColorBStyle"
+            android:background="@color/black"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/brown"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/red"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/orange"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/yellow"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/green"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/blue"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/violet"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/gray"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/white"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/goldenrod"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/silver"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/HLayoutStyle">
+
+        <ImageView
+            android:src="@drawable/resistor1"
+            android:layout_width="0dp"
+            android:layout_weight="294"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"/>
+
+        <Button style="@style/ButtonStyle"/>
+
+        <ImageView
+            android:src="@drawable/resistor2"
+            android:layout_width="0dp"
+            android:layout_weight="19"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp" />
+
+        <Button style="@style/ButtonStyle"/>
+
+        <ImageView
+            android:src="@drawable/resistor3"
+            android:layout_width="0dp"
+            android:layout_weight="18"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp" />
+
+
+        <Button style="@style/ButtonStyle"/>
+
+        <ImageView
+            android:src="@drawable/resistor4"
+            android:layout_width="0dp"
+            android:layout_weight="42"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"/>
+
+        <Button style="@style/ButtonStyle"
+            android:background="@color/goldenrod"/>
+
+        <ImageView
+            android:src="@drawable/resistor5"
+            android:layout_width="0dp"
+            android:layout_weight="356"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"/>
+
+    </LinearLayout>
+</RelativeLayout>
