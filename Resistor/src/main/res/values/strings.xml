@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">Resistor</string>
+    <string name="value">950Ω - 1050Ω</string>
+    <string name="guion">-</string>
+    <string name="value1">950Ω</string>
+    <string name="value2">1050Ω</string>
+    <string name="value3">1000Ω</string>
+    <string name="B">B</string>
+    <string name="R">R</string>
+    <string name="O">O</string>
+    <string name="Y">Y</string>
+    <string name="G">G</string>
+    <string name="V">V</string>
+    <string name="S">S</string>
+    <string name="W">W</string>
+    <string name="tReal">Real: \u0009</string>
+    <string name="tIdeal">Ideal: \u0009</string>
 </resources>

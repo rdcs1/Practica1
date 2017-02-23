@@ -1,85 +1,179 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_resistor"
+    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.resistor.Resistor">
 
-    <LinearLayout style="@style/HLayoutStyle">
-        <Button style="@style/ColorBStyle"
-            android:background="@color/black"/>
-        <Button style="@style/ColorBStyle"
-            android:background="@color/brown"/>
-        <Button style="@style/ColorBStyle"
-            android:background="@color/red"/>
-        <Button style="@style/ColorBStyle"
-            android:background="@color/orange"/>
-        <Button style="@style/ColorBStyle"
-            android:background="@color/yellow"/>
-        <Button style="@style/ColorBStyle"
-            android:background="@color/green"/>
-        <Button style="@style/ColorBStyle"
-            android:background="@color/blue"/>
-        <Button style="@style/ColorBStyle"
-            android:background="@color/violet"/>
-        <Button style="@style/ColorBStyle"
-            android:background="@color/gray"/>
-        <Button style="@style/ColorBStyle"
-            android:background="@color/white"/>
-        <Button style="@style/ColorBStyle"
-            android:background="@color/goldenrod"/>
-        <Button style="@style/ColorBStyle"
-            android:background="@color/silver"/>
-    </LinearLayout>
-
-    <LinearLayout style="@style/HLayoutStyle">
+    <LinearLayout style="@style/HLayoutStyle"
+        android:layout_width="320dp"
+        android:layout_weight="3">
 
         <ImageView
             android:src="@drawable/resistor1"
             android:layout_width="0dp"
-            android:layout_weight="294"
-            android:layout_height="wrap_content"
-            android:layout_margin="0dp"/>
-
-        <Button style="@style/ButtonStyle"/>
-
-        <ImageView
-            android:src="@drawable/resistor2"
-            android:layout_width="0dp"
-            android:layout_weight="19"
-            android:layout_height="wrap_content"
-            android:layout_margin="0dp" />
-
-        <Button style="@style/ButtonStyle"/>
-
-        <ImageView
-            android:src="@drawable/resistor3"
-            android:layout_width="0dp"
-            android:layout_weight="18"
-            android:layout_height="wrap_content"
-            android:layout_margin="0dp" />
-
-
-        <Button style="@style/ButtonStyle"/>
-
-        <ImageView
-            android:src="@drawable/resistor4"
-            android:layout_width="0dp"
-            android:layout_weight="42"
+            android:layout_weight="88"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="0dp"/>
 
+        <Button style="@style/ButtonStyle2"
+            android:background="@color/saddlebrown"
+            android:id="@+id/bFirst"/>
+
+        <ImageView
+            android:src="@drawable/resistor2"
+            android:layout_width="0dp"
+            android:layout_weight="39"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp" />
+
         <Button style="@style/ButtonStyle"
-            android:background="@color/goldenrod"/>
+            android:id="@+id/bSecond"/>
+
+        <ImageView
+            android:src="@drawable/resistor3"
+            android:layout_width="0dp"
+            android:layout_weight="34"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp" />
+
+
+        <Button style="@style/ButtonStyle"
+            android:background="@color/red"
+            android:id="@+id/bThird"/>
+
+        <ImageView
+            android:src="@drawable/resistor4"
+            android:layout_width="0dp"
+            android:layout_weight="86"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="0dp"/>
+
+        <Button style="@style/ButtonStyle2"
+            android:background="@color/goldenrod"
+            android:id="@+id/bForth"/>
 
         <ImageView
             android:src="@drawable/resistor5"
             android:layout_width="0dp"
-            android:layout_weight="356"
+            android:layout_weight="82"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_margin="0dp"/>
 
     </LinearLayout>
-</RelativeLayout>
+
+    <LinearLayout style="@style/HLayoutStyle"
+        android:layout_weight="0.5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tIdeal"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/value3"
+            android:textSize="18sp"
+            android:id="@+id/tRes3"/>
+
+    </LinearLayout>
+
+    <LinearLayout style="@style/HLayoutStyle"
+        android:layout_weight="0.5">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tReal"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/value1"
+            android:textSize="18sp"
+            android:id="@+id/tRes"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guion"
+            android:textSize="18sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/value2"
+            android:textSize="18sp"
+            android:id="@+id/tRes2"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/HLayoutStyle">
+        <Button style="@style/ColorBStyle"
+            android:background="@color/black"
+            android:text="@string/B"
+            android:textColor="@color/white"
+            android:id="@+id/bBlack"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/saddlebrown"
+            android:text="@string/B"
+            android:textColor="@color/white"
+            android:id="@+id/bBrown"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/red"
+            android:text="@string/R"
+            android:textColor="@color/white"
+            android:id="@+id/bRed"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/orangered"
+            android:text="@string/O"
+            android:textColor="@color/white"
+            android:id="@+id/bOrange"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/yellow"
+            android:text="@string/Y"
+            android:textColor="@color/black"
+            android:id="@+id/bYellow"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/green"
+            android:text="@string/G"
+            android:textColor="@color/white"
+            android:id="@+id/bGreen"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/blue"
+            android:text="@string/B"
+            android:textColor="@color/white"
+            android:id="@+id/bBlue"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/purple"
+            android:text="@string/V"
+            android:textColor="@color/white"
+            android:id="@+id/bPurple"/>
+        <Button style="@style/ColorBStyle"
+            android:text="@string/G"
+            android:textColor="@color/white"
+            android:background="@color/gray"
+            android:id="@+id/bGray"/>
+        <Button style="@style/ColorBStyle"
+            android:background="@color/white"
+            android:text="@string/W"
+            android:textColor="@color/black"
+            android:id="@+id/bWhite"/>
+        <Button style="@style/ColorBStyle"
+            android:text="@string/G"
+            android:textColor="@color/white"
+            android:background="@color/goldenrod"
+            android:id="@+id/bGolden"/>
+        <Button style="@style/ColorBStyle"
+            android:text="@string/S"
+            android:textColor="@color/black"
+            android:background="@color/silver"
+            android:id="@+id/bSilver"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

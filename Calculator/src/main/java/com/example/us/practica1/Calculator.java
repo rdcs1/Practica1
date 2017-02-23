@@ -172,6 +172,7 @@ public class Calculator extends AppCompatActivity {
                         b /= a;
                     }
                     a = b;
+                    b = Math.rint(b*100000000)/100000000;
                     acum = b.toString();
                     eNum.setText(acum);
                     acum = "";
@@ -196,6 +197,7 @@ public class Calculator extends AppCompatActivity {
                         b /= a;
                     }
                     a = b;
+                    b = Math.rint(b*100000000)/100000000;
                     acum = b.toString();
                     eNum.setText(acum);
                     acum = "";
@@ -220,6 +222,7 @@ public class Calculator extends AppCompatActivity {
                         b /= a;
                     }
                     a = b;
+                    b = Math.rint(b*100000000)/100000000;
                     acum = b.toString();
                     eNum.setText(acum);
                     acum = "";
@@ -244,6 +247,7 @@ public class Calculator extends AppCompatActivity {
                         b /= a;
                     }
                     a = b;
+                    b = Math.rint(b*100000000)/100000000;
                     acum = b.toString();
                     eNum.setText(acum);
                     acum = "";
@@ -267,6 +271,7 @@ public class Calculator extends AppCompatActivity {
                     b/=a;
                 }
                 a = b;
+                b = Math.rint(b*100000000)/100000000;
                 acum = b.toString();
                 eNum.setText(acum);
                 var = 0;

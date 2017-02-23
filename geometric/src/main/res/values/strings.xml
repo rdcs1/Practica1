@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Geometric</string>
+    <string name="tSquare">Square</string>
+    <string name="tTriangle">Triangle</string>
+    <string name="tCircle">Circle</string>
+    <string name="tCube">Cube</string>
+</resources>

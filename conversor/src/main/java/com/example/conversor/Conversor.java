@@ -33,11 +33,13 @@ public class Conversor extends AppCompatActivity {
                 if(pesos.getText().toString().equals("")&& !dollars.getText().toString().equals("")){
                     usd = Double.parseDouble(dollars.getText().toString());
                     cop = usd*2851.98;
+                    cop = Math.rint(cop*100000)/100000;
                     pesos.setText(cop.toString());
                 }
                 else if(!pesos.getText().toString().equals("")&& dollars.getText().toString().equals("")){
                     cop = Double.parseDouble(pesos.getText().toString());
                     usd = cop/2851.98;
+                    usd = Math.rint(usd*100000)/100000;
                     dollars.setText(usd.toString());
                 }
                 else if(!pesos.getText().toString().equals("")&& !dollars.getText().toString().equals("")){
@@ -47,6 +49,7 @@ public class Conversor extends AppCompatActivity {
                     Toast toast = Toast.makeText(context, text, duration);
                     toast.show();
                     dollars.setText("");
+                    pesos.setText("");
                 }
                 else if(pesos.getText().toString().equals("")&& dollars.getText().toString().equals("")){
                     Context context = getApplicationContext();
