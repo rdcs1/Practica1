@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Notas</string>
+    <string name="tPracticas">Prácticas</string>
+    <string name="tA1">Avance 1 Proyecto</string>
+    <string name="tA2">Avance 2 Proyecto</string>
+    <string name="tA3">Avance 3 Proyecto</string>
+    <string name="tApp">Aplicación final</string>
+    <string name="calcular">Calcular nota</string>
+</resources>

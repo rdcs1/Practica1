@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_notas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.notas.Notas">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView style="@style/tStyle"
+            android:text="@string/tPracticas"/>
+        <EditText style="@style/eStyle"
+            android:id="@+id/e1"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView style="@style/tStyle"
+            android:text="@string/tA1"/>
+        <EditText style="@style/eStyle"
+            android:id="@+id/e2"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView style="@style/tStyle"
+            android:text="@string/tA2"/>
+        <EditText style="@style/eStyle"
+            android:id="@+id/e3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView style="@style/tStyle"
+            android:text="@string/tA3"/>
+        <EditText style="@style/eStyle"
+            android:id="@+id/e4"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <TextView style="@style/tStyle"
+            android:text="@string/tApp"/>
+        <EditText style="@style/eStyle"
+            android:id="@+id/e5"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:id="@+id/bF"
+            android:text="@string/calcular" />
+
+        <TextView style="@style/tStyle"
+            android:id="@+id/tF"
+            android:textColor="@color/red"
+            android:textSize="20sp"
+            android:gravity="right"/>
+
+    </LinearLayout>
+</LinearLayout>
