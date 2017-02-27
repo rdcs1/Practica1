@@ -33,19 +33,19 @@ public class Notas extends AppCompatActivity {
                     Toast.makeText(getApplicationContext(),"Por favor llene todas las casillas correctamente",Toast.LENGTH_SHORT).show();
                     n1.setText("");
                 }
-                else if(n2.getText().toString().equals("") || n1.getText().toString().equals(".")){
+                else if(n2.getText().toString().equals("") || n2.getText().toString().equals(".")){
                     Toast.makeText(getApplicationContext(),"Por favor llene todas las casillas correctamente",Toast.LENGTH_SHORT).show();
                     n2.setText("");
                 }
-                else if(n3.getText().toString().equals("") || n1.getText().toString().equals(".")){
+                else if(n3.getText().toString().equals("") || n3.getText().toString().equals(".")){
                     Toast.makeText(getApplicationContext(),"Por favor llene todas las casillas correctamente",Toast.LENGTH_SHORT).show();
                     n3.setText("");
                 }
-                else if(n4.getText().toString().equals("") || n1.getText().toString().equals(".")){
+                else if(n4.getText().toString().equals("") || n4.getText().toString().equals(".")){
                     Toast.makeText(getApplicationContext(),"Por favor llene todas las casillas correctamente",Toast.LENGTH_SHORT).show();
                     n4.setText("");
                 }
-                else if(n5.getText().toString().equals("") || n1.getText().toString().equals(".")){
+                else if(n5.getText().toString().equals("") || n5.getText().toString().equals(".")){
                     Toast.makeText(getApplicationContext(),"Por favor llene todas las casillas correctamente",Toast.LENGTH_SHORT).show();
                     n5.setText("");
                 }
